@@ -1,0 +1,326 @@
+[
+    {
+        "ServiceName":  "KOFAX_WEB01_ACIS",
+        "URL":  "http://azw-ecmkcwsp0.int.pg.com/acis",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:25"
+    },
+    {
+        "ServiceName":  "KOFAX_WEB02_ACIS",
+        "URL":  "http://azw-ecmkcwsp1.int.pg.com/acis",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:25"
+    },
+    {
+        "ServiceName":  "KOFAX_WEB_LB",
+        "URL":  "https://azkofaxcapture.pg.com/acis",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:25"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_A2M_01",
+        "URL":  "https://azw-eckgscsp01.int.pg.com:8090/SAPALink_A2M/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:25"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_A2M_02",
+        "URL":  "https://azw-eckgscsp02.int.pg.com:8090/SAPALink_A2M/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:25"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_N2Z_01",
+        "URL":  "https://azw-eckgscsp01.int.pg.com:8091/SAPALink_N2Z/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_N2Z_02",
+        "URL":  "https://azw-eckgscsp02.int.pg.com:8091/SAPALink_N2Z/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_VALL_01",
+        "URL":  "https://azw-eckgscsp01.int.pg.com:8092/SAPALink_VALL/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_VALL_02",
+        "URL":  "https://azw-eckgscsp02.int.pg.com:8092/SAPALink_VALL/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_ES_01",
+        "URL":  "https://azw-eckgscsp01.int.pg.com:8093/SAPALink/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_ES_02",
+        "URL":  "https://azw-eckgscsp02.int.pg.com:8093/SAPALink/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_A2M_File01",
+        "URL":  "https://azw-eckgscsp02.int.pg.com:8090/SAPALink_A2M/contentserver?get\u0026pVersion=0046\u0026contRep=C2\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_A2M_File02",
+        "URL":  "https://azw-eckgscsp02.int.pg.com:8090/SAPALink_A2M/contentserver?get\u0026pVersion=0046\u0026contRep=C2\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_N2Z_File01",
+        "URL":  "https://azw-eckgscsp01.int.pg.com:8091/SAPALink_N2Z/contentserver?get\u0026pVersion=0046\u0026contRep=Q1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_N2Z_File02",
+        "URL":  "https://azw-eckgscsp02.int.pg.com:8091/SAPALink_N2Z/contentserver?get\u0026pVersion=0046\u0026contRep=Q1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_VALL_File01",
+        "URL":  "https://azw-eckgscsp01.int.pg.com:8092/SAPALink_VALL/contentserver?get\u0026pVersion=0046\u0026contRep=F1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data\u0026disableViewer=true",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_VALL_File02",
+        "URL":  "https://azw-eckgscsp02.int.pg.com:8092/SAPALink_VALL/contentserver?get\u0026pVersion=0046\u0026contRep=F1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data\u0026disableViewer=true",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_A2M_FileLB",
+        "URL":  "https://cs.ecarm.pg.com:8090/SAPALink_A2M/contentserver?get\u0026pVersion=0046\u0026contRep=C2\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_N2Z_FileLB",
+        "URL":  "https://cs.ecarm.pg.com:8091/SAPALink_N2Z/contentserver?get\u0026pVersion=0046\u0026contRep=Q1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_VALL_FileLB",
+        "URL":  "https://cs.ecarm.pg.com:8092/SAPALink_VALL/contentserver?get\u0026pVersion=0046\u0026contRep=F1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data\u0026disableViewer=true",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_A2M_LB",
+        "URL":  "https://cs.ecarm.pg.com:8090/SAPALink_A2M/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_NV_N2Z_LB",
+        "URL":  "https://cs.ecarm.pg.com:8091/SAPALink_N2Z/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_cloud_VALL_LB",
+        "URL":  "https://cs.ecarm.pg.com:8092/SAPALink_VALL/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_NV_ES_LB",
+        "URL":  "https://cs.ecarm.pg.com:8093/SAPALink/contentserver?serverInfo",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:26"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_A2M_01",
+        "URL":  "https://ecarmcs01.pg.com:8090",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_A2M_02",
+        "URL":  "https://ecarmcs02.pg.com:8090",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_N2Z_01",
+        "URL":  "https://ecarmcs01.pg.com:8091",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_N2Z_02",
+        "URL":  "https://ecarmcs02.pg.com:8091",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_VALL_01",
+        "URL":  "https://ecarmcs01.pg.com:8092",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_VALL_02",
+        "URL":  "https://ecarmcs02.pg.com:8092",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_ES_01",
+        "URL":  "https://ecarmcs01.pg.com:8093",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_ES_02",
+        "URL":  "https://ecarmcs02.pg.com:8093",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_viewer_01",
+        "URL":  "https://ecarmcs01.pg.com:8050/actuator",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_viewer_02",
+        "URL":  "https://ecarmcs02.pg.com:8050/actuator",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_webproxy_01",
+        "URL":  "https://ecarmcs01.pg.com:8051/actuator",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_webproxy_02",
+        "URL":  "https://ecarmcs02.pg.com:8051/actuator",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_A2M_File01",
+        "URL":  "https://ecarmcs01.pg.com:8090/SAPALink_A2M/contentserver?get\u0026pVersion=0046\u0026contRep=B1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_A2M_File02",
+        "URL":  "https://ecarmcs02.pg.com:8090/SAPALink_A2M/contentserver?get\u0026pVersion=0046\u0026contRep=B1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_N2Z_File01",
+        "URL":  "https://ecarmcs01.pg.com:8091/SAPALink_N2Z/contentserver?get\u0026pVersion=0046\u0026contRep=Q1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_N2Z_File02",
+        "URL":  "https://ecarmcs02.pg.com:8091/SAPALink_N2Z/contentserver?get\u0026pVersion=0046\u0026contRep=Q1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_VALL_File01",
+        "URL":  "https://ecarmcs01.pg.com:8092/SAPALink_VALL/contentserver?get\u0026pVersion=0046\u0026contRep=F1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_VALL_File02",
+        "URL":  "https://ecarmcs02.pg.com:8092/SAPALink_VALL/contentserver?get\u0026pVersion=0046\u0026contRep=F1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_Proxy_File01",
+        "URL":  "https://ecarmcs01.pg.com:8051/contentserver?get\u0026pVersion=0046\u0026contRep=F1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data_noviewer",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_Proxy_File02",
+        "URL":  "https://ecarmcs02.pg.com:8051/contentserver?get\u0026pVersion=0046\u0026contRep=F1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data_noviewer",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_A2M_FileLB",
+        "URL":  "https://ecarmcs.pg.com:8090/SAPALink_A2M/contentserver?get\u0026pVersion=0046\u0026contRep=B1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_N2Z_FileLB",
+        "URL":  "https://ecarmcs.pg.com:8091/SAPALink_N2Z/contentserver?get\u0026pVersion=0046\u0026contRep=Q1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_VALL_FileLB",
+        "URL":  "https://ecarmcs.pg.com:8092/SAPALink_VALL/contentserver?get\u0026pVersion=0046\u0026contRep=F1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_Proxy_FileLB",
+        "URL":  "https://ecarmcs.pg.com:8051/contentserver?get\u0026pVersion=0046\u0026contRep=F1\u0026docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII\u0026compId=data_noviewer",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_A2M_LB",
+        "URL":  "https://ecarmcs.pg.com:8090",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_N2Z_LB",
+        "URL":  "https://ecarmcs.pg.com:8091",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_VALL_LB",
+        "URL":  "https://ecarmcs.pg.com:8092",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:27"
+    },
+    {
+        "ServiceName":  "KGS_tia_tomcat_ES_LB",
+        "URL":  "https://ecarmcs.pg.com:8093",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:28"
+    },
+    {
+        "ServiceName":  "KGS_tia_viewer_LB",
+        "URL":  "https://ecarmcs.pg.com:8050/actuator",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:28"
+    },
+    {
+        "ServiceName":  "KGS_tia_webproxy_LB",
+        "URL":  "https://ecarmcs.pg.com:8051/actuator",
+        "Status":  "Up",
+        "Timestamp":  "2025-12-01 09:00:28"
+    }
+]

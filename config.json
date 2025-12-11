@@ -1,0 +1,93 @@
+{
+    "services": [
+	{ "name": "KOFAX_WEB01_ACIS", "url": "http://azw-ecmkcwsp0.int.pg.com/acis" },
+	{ "name": "KOFAX_WEB02_ACIS", "url": "http://azw-ecmkcwsp1.int.pg.com/acis" },
+	{ "name": "KOFAX_WEB_LB", "url": "https://azkofaxcapture.pg.com/acis" },
+	{ "name": "KGS_cloud_NV_A2M_01", "url": "https://azw-eckgscsp01.int.pg.com:8090/SAPALink_A2M/contentserver?serverInfo" },
+	{ "name": "KGS_cloud_NV_A2M_02", "url": "https://azw-eckgscsp02.int.pg.com:8090/SAPALink_A2M/contentserver?serverInfo" },
+	{ "name": "KGS_cloud_NV_N2Z_01", "url": "https://azw-eckgscsp01.int.pg.com:8091/SAPALink_N2Z/contentserver?serverInfo" },
+	{ "name": "KGS_cloud_NV_N2Z_02", "url": "https://azw-eckgscsp02.int.pg.com:8091/SAPALink_N2Z/contentserver?serverInfo" },
+	{ "name": "KGS_cloud_VALL_01", "url": "https://azw-eckgscsp01.int.pg.com:8092/SAPALink_VALL/contentserver?serverInfo" },
+	{ "name": "KGS_cloud_VALL_02", "url": "https://azw-eckgscsp02.int.pg.com:8092/SAPALink_VALL/contentserver?serverInfo" },
+	{ "name": "KGS_cloud_NV_ES_01", "url": "https://azw-eckgscsp01.int.pg.com:8093/SAPALink/contentserver?serverInfo" },
+	{ "name": "KGS_cloud_NV_ES_02", "url": "https://azw-eckgscsp02.int.pg.com:8093/SAPALink/contentserver?serverInfo" },
+        { "name": "KGS_cloud_NV_A2M_File01", "url": "https://azw-eckgscsp02.int.pg.com:8090/SAPALink_A2M/contentserver?get&pVersion=0046&contRep=C2&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data" },
+	{ "name": "KGS_cloud_NV_A2M_File02", "url": "https://azw-eckgscsp02.int.pg.com:8090/SAPALink_A2M/contentserver?get&pVersion=0046&contRep=C2&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data" },
+	{ "name": "KGS_cloud_NV_N2Z_File01", "url": "https://azw-eckgscsp01.int.pg.com:8091/SAPALink_N2Z/contentserver?get&pVersion=0046&contRep=Q1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII&compId=data" },
+	{ "name": "KGS_cloud_NV_N2Z_File02", "url": "https://azw-eckgscsp02.int.pg.com:8091/SAPALink_N2Z/contentserver?get&pVersion=0046&contRep=Q1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII&compId=data" },
+	{ "name": "KGS_cloud_VALL_File01", "url": "https://azw-eckgscsp01.int.pg.com:8092/SAPALink_VALL/contentserver?get&pVersion=0046&contRep=F1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data&disableViewer=true" },
+	{ "name": "KGS_cloud_VALL_File02", "url": "https://azw-eckgscsp02.int.pg.com:8092/SAPALink_VALL/contentserver?get&pVersion=0046&contRep=F1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data&disableViewer=true" },
+	{ "name": "KGS_cloud_NV_A2M_FileLB", "url": "https://cs.ecarm.pg.com:8090/SAPALink_A2M/contentserver?get&pVersion=0046&contRep=C2&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data" },
+	{ "name": "KGS_cloud_NV_N2Z_FileLB", "url": "https://cs.ecarm.pg.com:8091/SAPALink_N2Z/contentserver?get&pVersion=0046&contRep=Q1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII&compId=data" },
+	{ "name": "KGS_cloud_VALL_FileLB", "url": "https://cs.ecarm.pg.com:8092/SAPALink_VALL/contentserver?get&pVersion=0046&contRep=F1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data&disableViewer=true" },
+        { "name": "KGS_cloud_NV_A2M_LB", "url": "https://cs.ecarm.pg.com:8090/SAPALink_A2M/contentserver?serverInfo" },
+	{ "name": "KGS_cloud_NV_N2Z_LB", "url": "https://cs.ecarm.pg.com:8091/SAPALink_N2Z/contentserver?serverInfo" },
+	{ "name": "KGS_cloud_VALL_LB", "url": "https://cs.ecarm.pg.com:8092/SAPALink_VALL/contentserver?serverInfo" },
+   	{ "name": "KGS_NV_ES_LB", "url": "https://cs.ecarm.pg.com:8093/SAPALink/contentserver?serverInfo" },
+		{ "name": "KGS_tia_tomcat_A2M_01", "url": "https://ecarmcs01.pg.com:8090" },
+	{ "name": "KGS_tia_tomcat_A2M_02", "url": "https://ecarmcs02.pg.com:8090" },
+	{ "name": "KGS_tia_tomcat_N2Z_01", "url": "https://ecarmcs01.pg.com:8091" },
+	{ "name": "KGS_tia_tomcat_N2Z_02", "url": "https://ecarmcs02.pg.com:8091" },
+	{ "name": "KGS_tia_tomcat_VALL_01", "url": "https://ecarmcs01.pg.com:8092" },
+	{ "name": "KGS_tia_tomcat_VALL_02", "url": "https://ecarmcs02.pg.com:8092" },
+	{ "name": "KGS_tia_tomcat_ES_01", "url": "https://ecarmcs01.pg.com:8093" },
+	{ "name": "KGS_tia_tomcat_ES_02", "url": "https://ecarmcs02.pg.com:8093" },
+    { "name": "KGS_tia_viewer_01", "url": "https://ecarmcs01.pg.com:8050/actuator" },
+    { "name": "KGS_tia_viewer_02", "url": "https://ecarmcs02.pg.com:8050/actuator" },
+    { "name": "KGS_tia_webproxy_01", "url": "https://ecarmcs01.pg.com:8051/actuator" },
+    { "name": "KGS_tia_webproxy_02", "url": "https://ecarmcs02.pg.com:8051/actuator" },
+        { "name": "KGS_tia_A2M_File01", "url": "https://ecarmcs01.pg.com:8090/SAPALink_A2M/contentserver?get&pVersion=0046&contRep=B1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data" },
+	{ "name": "KGS_tia_A2M_File02", "url": "https://ecarmcs02.pg.com:8090/SAPALink_A2M/contentserver?get&pVersion=0046&contRep=B1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data" },
+	{ "name": "KGS_tia_N2Z_File01", "url": "https://ecarmcs01.pg.com:8091/SAPALink_N2Z/contentserver?get&pVersion=0046&contRep=Q1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII&compId=data" },
+	{ "name": "KGS_tia_N2Z_File02", "url": "https://ecarmcs02.pg.com:8091/SAPALink_N2Z/contentserver?get&pVersion=0046&contRep=Q1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII&compId=data" },
+	{ "name": "KGS_tia_VALL_File01", "url": "https://ecarmcs01.pg.com:8092/SAPALink_VALL/contentserver?get&pVersion=0046&contRep=F1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data" },
+	{ "name": "KGS_tia_VALL_File02", "url": "https://ecarmcs02.pg.com:8092/SAPALink_VALL/contentserver?get&pVersion=0046&contRep=F1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data" },
+	{ "name": "KGS_tia_Proxy_File01", "url": "https://ecarmcs01.pg.com:8051/contentserver?get&pVersion=0046&contRep=F1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data_noviewer" },
+	{ "name": "KGS_tia_Proxy_File02", "url": "https://ecarmcs02.pg.com:8051/contentserver?get&pVersion=0046&contRep=F1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data_noviewer" },
+		{ "name": "KGS_tia_A2M_FileLB", "url": "https://ecarmcs.pg.com:8090/SAPALink_A2M/contentserver?get&pVersion=0046&contRep=B1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data" },
+	{ "name": "KGS_tia_N2Z_FileLB", "url": "https://ecarmcs.pg.com:8091/SAPALink_N2Z/contentserver?get&pVersion=0046&contRep=Q1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGIIII&compId=data" },
+	{ "name": "KGS_tia_VALL_FileLB", "url": "https://ecarmcs.pg.com:8092/SAPALink_VALL/contentserver?get&pVersion=0046&contRep=F1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data" },
+	{ "name": "KGS_tia_Proxy_FileLB", "url": "https://ecarmcs.pg.com:8051/contentserver?get&pVersion=0046&contRep=F1&docId=AAAABBBBCCCCDDDDEEEEFFFFGGGGHIII&compId=data_noviewer" },
+        { "name": "KGS_tia_tomcat_A2M_LB", "url": "https://ecarmcs.pg.com:8090" },
+	{ "name": "KGS_tia_tomcat_N2Z_LB", "url": "https://ecarmcs.pg.com:8091" },
+	{ "name": "KGS_tia_tomcat_VALL_LB", "url": "https://ecarmcs.pg.com:8092" },
+   	{ "name": "KGS_tia_tomcat_ES_LB", "url": "https://ecarmcs.pg.com:8093" },
+    { "name": "KGS_tia_viewer_LB", "url": "https://ecarmcs.pg.com:8050/actuator" },
+    { "name": "KGS_tia_webproxy_LB", "url": "https://ecarmcs.pg.com:8051/actuator" }
+    ],
+    "emailSettings": {
+        "smtpServer": "smtpgw.pg.com",
+        "port": 587,
+        "useSsl": true,
+        "from": "ecarmkofax.im@pg.com",
+        "to": "asgd.ph.oneadm.andm.ig.pg@dxc.com"
+    },
+    "loggingSettings": {
+        "logFilePath": "G:\\Scripts\\urlmonitoring\\log",
+        "logLevel": "INFO"
+    },
+    "timeoutSettings": {
+        "timeoutSec": 15,
+        "retryCount": 3
+    },
+    "notificationSettings": {
+        "enableNotifications": true,
+        "failureThreshold": 1
+    },
+    "filePaths": {
+        "downtimeFilePath": "G:\\Scripts\\urlmonitoring\\downtime.json",
+        "totalDowntimeFilePath": "G:\\Scripts\\urlmonitoring\\totaldowntime.json",
+        "statusFilePath": "G:\\Scripts\\urlmonitoring\\status.json",
+        "encryptedPasswordFilePath": "G:\\Scripts\\urlmonitoring\\encp\\emailpass.txt",
+        "reportDirectory": "G:\\Scripts\\urlmonitoring\\report",
+        "incidentFilePath": "G:\\Scripts\\urlmonitoring\\incidentTracking.json"
+    },
+    "apiCredentials": {
+        "clientIdPath": "G:\\Scripts\\urlmonitoring\\encp\\eCId.txt",
+        "clientSecretPath": "G:\\Scripts\\urlmonitoring\\encp\\sCS.txt",
+        "refreshTokenPath": "G:\\Scripts\\urlmonitoring\\encp\\sRT.txt"
+    },
+	"logFilePathBase": "G:\\Scripts\\urlmonitoring\\log",
+        "endpointUrl": "https://pgglobalenterprise.service-now.com/api/now/import/u_itsm_api_incident_v2",
+        "oauthTokenUrl": "https://pgglobalenterprise.service-now.com/oauth_token.do"
+}
