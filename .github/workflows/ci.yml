@@ -1,0 +1,39 @@
+
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  ci:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Pester & ScriptAnalyzer
+        shell: pwsh
+        run: |
+          Install-Module Pester -Scope CurrentUser -Force -SkipPublisherCheck
+          Install-Module PSScriptAnalyzer -Scope CurrentUser -Force -SkipPublisherCheck
+
+      - name: Lint PowerShell script
+        shell: pwsh
+        run: |
+          if (Test-Path ./url-monitoring.ps1) {
+            Invoke-ScriptAnalyzer -Path ./url-monitoring.ps1
+          } elseif (Test-Path ./WUM.ps1) {
+            Invoke-ScriptAnalyzer -Path ./WUM.ps1
+          } else {
+            Write-Error "Monitoring script not found."
+          }
+
+      - name: Run tests (optional)
+        shell: pwsh
+        run: |
+          if (Test-Path ./tests) {
+            Invoke-Pester -Path ./tests -CI
+          } else {
+            Write-Host "No tests yet—skipping."
