@@ -1,0 +1,14 @@
+# Runtime & sensitive files
+config.json
+downtime.json
+incidentTracking.json
+status.json
+totaldowntime.json
+
+# Logs
+*.log
+log*.txt
+
+# Local environment
+.venv/
+.vscode/
